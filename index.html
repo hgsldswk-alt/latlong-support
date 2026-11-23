@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="緯度経度メモのサポートとプライバシーポリシー">
+  <title>緯度経度メモ — サポート・プライバシー</title>
+  <style>
+    :root { color-scheme: light; --paper: #f1f5f8; --ink: #102635; --accent: #006875; --border: #cfdfe6; }
+    * { box-sizing: border-box; }
+    body { margin: 0; background: var(--paper); color: var(--ink); font: 1rem/1.7 system-ui, sans-serif; overflow-wrap: anywhere; }
+    main { width: min(100% - 2rem, 48rem); margin: 2rem auto; }
+    header { margin-block-end: 1.25rem; }
+    h1, h2, h3 { line-height: 1.3; }
+    nav { display: flex; flex-wrap: wrap; gap: .5rem 1rem; }
+    nav a { display: inline-flex; align-items: center; min-height: 44px; }
+    a { color: var(--accent); text-underline-offset: .15em; }
+    a:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+    section { background: #fff; border: 1px solid var(--border); border-radius: 1rem; padding: clamp(1rem, 4vw, 2rem); margin-block: 1rem; }
+    section h2 { margin-block-start: 0; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>緯度経度メモ</h1>
+      <nav aria-label="言語">
+        <a href="#ja" lang="ja">日本語</a>
+        <a href="#en" lang="en">English</a>
+        <a href="#zh-Hans" lang="zh-Hans">简体中文</a>
+      </nav>
+    </header>
+    <section id="ja" lang="ja" aria-labelledby="ja-title">
+      <h2 id="ja-title">サポート</h2>
+      <p>初回は位置情報を「Appの使用中のみ許可」にします。ホームで緯度・経度、水平精度、測位時刻を確認し、「地点を保存」を押します。測位が難しい場合は、空が開けた場所で再度お試しください。</p>
+      <p>「書き出す」から対象の地点を確認し、CSV・GPX・KMLを選びます。地点一覧から名前を変更・削除できます。「設定」から地点コードを貼り付けるか、ファイルを選んで読み込みます。</p>
+      <p>有料版を初めて開いてから30日間はすべての機能を試せます。自動課金はありません。終了後も未分類への保存や履歴を使え、対象の既存地点を書き出せます。購入の復元は「設定」から行います。</p>
+      <h3 id="privacy">プライバシーポリシー</h3>
+      <p>位置情報はホームの座標表示とユーザーが選んだ地点の保存に使います。地点の座標・精度・時刻・名前は端末に保存され、開発者は収集しません。アカウント、広告、解析、位置のバックグラウンド収集はありません。購入、復元、評価にはAppleのシステムサービスを使います。</p>
+      <p>共有・書き出しを実行すると、選んだデータがシステム共有先に渡ります。地点コードには正確な座標が含まれます。共有カードは初期状態では座標、名前、精度を表示しません。記録は地点一覧で削除できます。Appを削除すると端末内の地点データも削除されます。</p>
+      <p>お問い合わせは <a href="#contact">メール窓口</a> へ。Appのバージョン、iOSのバージョン、起きた画面をお知らせください。</p>
+    </section>
+    <section id="en" lang="en" aria-labelledby="en-title">
+      <h2 id="en-title">LatLong Field Notes support</h2>
+      <p>Allow location while using the app. The home screen shows latitude, longitude, horizontal accuracy and fix time. Tap Save point to capture it. If a fix is slow, try somewhere with a clear view of the sky.</p>
+      <p>Open Export, check the points in scope and select CSV, GPX or KML. Open a point to rename or delete it. In Settings, you can import a waypoint code by pasting it or opening a file.</p>
+      <p>All features are available for 30 days from the first launch of the paid edition. There is no automatic charge. You can still save to Unfiled, view history and export eligible older points. To restore a purchase, open Settings.</p>
+      <h3>Privacy policy</h3>
+      <p>Location is used to display coordinates and save selected points. Coordinates, accuracy, timestamps and names stay on your device. The developer does not collect this information. The app has no account, ads, analytics or background location collection. Purchases, restoration and review prompts use Apple system services.</p>
+      <p>When you share or export, your selected data is handed to the destination you choose. Waypoint codes contain exact coordinates. Share cards hide coordinates, names and accuracy until you enable them. You can delete individual points in the app. Removing the app removes the on-device point library.</p>
+      <p>For help, <a href="#contact">email support</a> with the app version, iOS version and the screen where the issue occurred.</p>
+    </section>
+    <section id="zh-Hans" lang="zh-Hans" aria-labelledby="zh-title">
+      <h2 id="zh-title">经纬度采集使用帮助</h2>
+      <p>首次使用时，允许 App 在使用期间访问位置。首页显示纬度、经度、水平精度和采样时间，点「保存点位」即可记录。定位较慢时，可到天空开阔处再试。</p>
+      <p>打开「导出」，确认范围后选择 CSV、GPX 或 KML。打开点位可以改名或删除。在「设置」中可粘贴地点口令或选择文件，预览后添加。</p>
+      <p>首次打开收费版后 30 天可使用全部功能，无自动扣费。期满仍可保存到未分类、查历史及导出符合条件的旧点位。可在「设置」中恢复购买。</p>
+      <h3>隐私政策</h3>
+      <p>定位仅用于显示经纬度和保存您选择的地点。坐标、精度、时间和名称保留在本机，开发者不收集这些数据。App 无账号、广告、统计和后台定位。购买、恢复购买和评分请求由 Apple 系统服务处理。</p>
+      <p>主动分享或导出时，所选数据会交给您指定的系统分享目标。地点口令包含精确坐标。分享卡默认隐藏坐标、名称和精度。可在点位列表删除记录，卸载 App 会移除本机点位库。</p>
+      <p>遇到问题时，请<a href="#contact">联系支持</a>，附上 App 版本、iOS 版本和出现问题的界面。</p>
+    </section>
+    <section id="contact" aria-label="お問い合わせ">
+      <h2>お問い合わせ · Contact · 联系方式</h2>
+      <a href="mailto:2522855586@qq.com">2522855586@qq.com</a>
+    </section>
+  </main>
+</body>
+</html>
